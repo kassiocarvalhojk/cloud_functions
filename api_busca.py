@@ -15,8 +15,8 @@ procedure = os.environ.get('SUA_VARIAVEL_DE_AMBIENTE') # variavel de ambiente ca
 # FUNÇÃO QUE CHAMA PROCEDURE
 def call_procedure(sua_variavel1,suavariavel2):
 
-    print("IP da busca recebido: ",sua_variavel1)
-    print("Data de busca recebida: ",suavariavel2)
+    print("variavel da busca recebido: ",sua_variavel1)
+    print("variavel de busca recebida: ",suavariavel2)
     query = f"CALL `{procedure}`('{sua_variavel1}','{suavariavel2}');"
     print(f"Query executada: {query}")
     result = client.query(query).result()

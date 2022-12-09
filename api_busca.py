@@ -9,7 +9,7 @@ import os
 
 # VARIAVEIS UTEIS
 client = bigquery.Client()
-procedure = os.environ.get('SUA_VARIAVEL_DE_AMBIENTE') # variavel de ambiente cadastrada com uma store procedure, mas pode ser usada uma query normal
+procedure = os.environ.get('SUA_VARIAVEL_DE_AMBIENTE') # variavel de ambiente cadastrada com uma procedure, mas pode ser usada uma query normal
 
 
 # FUNÇÃO QUE CHAMA PROCEDURE

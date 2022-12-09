@@ -1,0 +1,7 @@
+functions-framework==3.*
+xlrd>=1.0.0
+fsspec>=1.0.0
+gcsfs>=1.0.0
+google-cloud-bigquery==3.2.0
+pandas>=1.5.0
+pytz>=2022.2.1
